@@ -35,22 +35,30 @@ To reproduce this project, follow these steps:
 
 Required Python libraries:
 
-●	pip install crawl4ai pydantic-ai requests ffmpeg-python pysrt
+```bash
+pip install crawl4ai pydantic-ai requests ffmpeg-python pysrt
+```
 
 # 4.2 Steps to Run
 Clone the repository from GitHub:
 
 1.	Set up API keys in .env file:
 
-● OPENAI_API_KEY=your_openai_key
+```bash
+OPENAI_API_KEY=your_openai_key
+```
 
-●	DEEPGRAM_API_KEY=your_deepgram_key
+```bash
+DEEPGRAM_API_KEY=your_deepgram_key
+```
 
 2.	Run the script with any news article URL:
-   
-●	python ai_reel_generator.py
 
-4.	The script will generate a video
+```bash
+python ai_reel_generator.py
+```
+
+3.	The script will generate a video
 
 # 5. References
 1.	GPT-4o-mini Model - OpenAI: https://platform.openai.com/
