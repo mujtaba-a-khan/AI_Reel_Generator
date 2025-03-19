@@ -52,3 +52,11 @@ Clone the repository from GitHub:
 
 4.	The script will generate a video
 
+# 5. References
+1.	GPT-4o-mini Model - OpenAI: https://platform.openai.com/
+2.	DALL·E 3 for Image Generation - OpenAI: https://openai.com/dall-e
+3.	Deepgram Text-to-Speech API - https://deepgram.com
+4.	Pysrt Library for Subtitles - https://pypi.org/project/pysrt/
+5.	FFmpeg for Video Processing - https://ffmpeg.org/
+
+
