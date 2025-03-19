@@ -20,3 +20,35 @@ Why is this use case interesting?
 4.	Text-to-Speech (TTS) Conversion: Deepgram converts text narration into realistic AI voice.
 5.	Subtitles Processing: The system syncs subtitles with the generated audio using Pysrt.
 6.	Final Video Compilation: Uses FFmpeg to merge images, audio, and subtitles into a final Reel video.
+
+# 4. Reproducibility: How to Use the System
+To reproduce this project, follow these steps:
+
+# 4.1 Prerequisites
+
+●	Python 3.8+ installed
+
+●	FFmpeg installed
+
+●	API keys for OpenAI, Deepgram
+
+
+Required Python libraries:
+
+●	pip install crawl4ai pydantic-ai requests ffmpeg-python pysrt
+
+# 4.2 Steps to Run
+Clone the repository from GitHub:
+
+1.	Set up API keys in .env file:
+
+● OPENAI_API_KEY=your_openai_key
+
+●	DEEPGRAM_API_KEY=your_deepgram_key
+
+2.	Run the script with any news article URL:
+   
+●	python ai_reel_generator.py
+
+4.	The script will generate a video
+
